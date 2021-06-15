@@ -43,7 +43,7 @@
       <div class="descanso">
 
       </div>
-      <div class="Testimonios">
+      <div v-if="false" class="Testimonios">
         <h1>TESTIMONIOS</h1>
       </div>
   </div>

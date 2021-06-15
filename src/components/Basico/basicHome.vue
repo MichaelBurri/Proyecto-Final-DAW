@@ -4,14 +4,13 @@
       <ScrollTop :threshold="100" style="height: 50px;width: 50px;background-color:blue" />
     </div>
     <div class="p-grid">
-      <img src="" alt="icono" width="50px" class="p-col-2">
       <h1>
           <input v-if="edicion" type="text" v-model="basico.titulo">
           {{basico.titulo}}
       </h1>
     </div>
       
-      <div class="jumbotron">          
+      <div class="jumbotron">                  
           <img class="imagenTitulo" :src="basico.imagen" alt=""><input v-if="edicion" type="text" v-model="basico.imagen">
          
         <h2><input v-if="edicion" type="text" v-model="basico.subtitulo">{{basico.subtitulo}}</h2>
@@ -37,6 +36,7 @@
                 <h4>{{item.precio}}</h4>
             </template>
             <template #content>
+                <input v-if="edicion" type="text" v-model="item.imagen">
                 <img class="imagenProd" :src="item.imagen" alt="">
                 <p>  
                     <textarea v-if="edicion" type="text" v-model="item.descripcion"> </textarea>   <br>            

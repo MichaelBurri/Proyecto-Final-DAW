@@ -46,7 +46,7 @@
         <br><br><br><br>
         <hr>
         <!-- Controles de debugging -->
-        <div>
+        <div v-if="false">
             <h3>Controles para profesores que no quieren registrarse o dar sus datos de pago (Interfiere con el funcionamiento habitual de la app)</h3>
             <Button @click="show">{{mensaje}}</Button>
             <br>
