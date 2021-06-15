@@ -14,7 +14,9 @@
     "emailjs-com": "^3.0.2",
     "firebase": "^8.6.5",
     "font-awesome": "^4.7.0",
+    "primeflex": "^2.0.0",
     "primeicons": "^4.1.0",
+    "primevue": "^3.5.1",
     "vue": "^2.6.11",
     "vue-firestore": "^0.3.30",
     "vue-router": "^3.5.1"
